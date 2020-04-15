@@ -150,6 +150,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+pointer.o: pointer.c.o
+
+.PHONY : pointer.o
+
+# target to build an object file
+pointer.c.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/pointer.c.o
+.PHONY : pointer.c.o
+
+pointer.i: pointer.c.i
+
+.PHONY : pointer.i
+
+# target to preprocess a source file
+pointer.c.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/pointer.c.i
+.PHONY : pointer.c.i
+
+pointer.s: pointer.c.s
+
+.PHONY : pointer.s
+
+# target to generate assembly for a file
+pointer.c.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/pointer.c.s
+.PHONY : pointer.c.s
+
+pointer.o: pointer.cpp.o
+
+.PHONY : pointer.o
+
+# target to build an object file
+pointer.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/pointer.cpp.o
+.PHONY : pointer.cpp.o
+
+pointer.i: pointer.cpp.i
+
+.PHONY : pointer.i
+
+# target to preprocess a source file
+pointer.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/pointer.cpp.i
+.PHONY : pointer.cpp.i
+
+pointer.s: pointer.cpp.s
+
+.PHONY : pointer.s
+
+# target to generate assembly for a file
+pointer.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/pointer.cpp.s
+.PHONY : pointer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +216,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... pointer.o"
+	@echo "... pointer.i"
+	@echo "... pointer.s"
+	@echo "... pointer.o"
+	@echo "... pointer.i"
+	@echo "... pointer.s"
 .PHONY : help
 
 

@@ -80,7 +80,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/lishouyan/CLionProjects/untitled/cmake-build-debug/pointer.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/Users/lishouyan/CLionProjects/untitled/cmake-build-debug/pointer.h">
+			<Option target="untitled"/>
+		</Unit>
 		<Unit filename="/Users/lishouyan/CLionProjects/untitled/main.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/Users/lishouyan/CLionProjects/untitled/pointer.c">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/Users/lishouyan/CLionProjects/untitled/CMakeLists.txt">
